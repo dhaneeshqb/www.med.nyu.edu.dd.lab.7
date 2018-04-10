@@ -1,0 +1,15 @@
+---
+# The variables file used by the playbook.
+# The site type determines how the site is going to be build and updated
+sitename: Test DD Lab
+siteurl: www.med.nyu.edu/dd-lab-7
+sitepath: /var/www/html/www.med.nyu.edu.dd.lab.7
+dbname: nyumc_TestDDLab_1503409062_d7
+theme_to_enable: nyumed_v2
+custom_features_to_enable: ""
+custom_modules_to_enable: ""
+default_admin_email: "webteam@nyumc.org"
+default_database_repo: "ssh://git@stash.nyumc.org:7999/dcm/drupal-default-database.git"
+default_database_file: "default-core-build.sql"
+site_type: "lab-drupal7"
+uri_alias: "/dd-lab-7"
